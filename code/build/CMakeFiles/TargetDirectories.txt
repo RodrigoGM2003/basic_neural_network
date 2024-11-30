@@ -1,0 +1,3 @@
+C:/Users/xxdri/Desktop/Universidad/Proyectos personales/RN/StandardNeuronalNetwork/code/build/CMakeFiles/main.dir
+C:/Users/xxdri/Desktop/Universidad/Proyectos personales/RN/StandardNeuronalNetwork/code/build/CMakeFiles/edit_cache.dir
+C:/Users/xxdri/Desktop/Universidad/Proyectos personales/RN/StandardNeuronalNetwork/code/build/CMakeFiles/rebuild_cache.dir
