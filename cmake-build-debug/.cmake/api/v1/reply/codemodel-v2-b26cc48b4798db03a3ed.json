@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "StandarneuronlNetwork",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "layer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-layer-Debug-e2220a6649c0d122d8fe.json",
+					"name" : "layer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "n_network::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-n_network-Debug-815d281a8b2eb9c343cf.json",
+					"name" : "n_network",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pruebas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pruebas-Debug-80880434e037fa63b024.json",
+					"name" : "pruebas",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/rodrigogm/Universidad/RN/StandardNeuronalNetwork/cmake-build-debug",
+		"source" : "/home/rodrigogm/Universidad/RN/StandardNeuronalNetwork"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
