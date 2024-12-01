@@ -36,10 +36,12 @@ This project implements a neural network from scratch in C++ to solve the MNIST 
    mkdir build
    cd build
    cmake -G "MinGW Makefiles" ..
+  ```
 
 3. Build the project
    ```bash
    cmake --build .
+   ```
 
 
 ### Usage
@@ -51,6 +53,7 @@ This project implements a neural network from scratch in C++ to solve the MNIST 
 3. Run the executable, passing the paths to the dataset files
    ```bash
    ./bin/main
+   ```
 
 ### Code Structure
 ## Core Components
