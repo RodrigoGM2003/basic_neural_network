@@ -18,6 +18,7 @@ This project implements a neural network from scratch in C++ to solve the MNIST 
 
 ### Prerequisites
 - C++ compiler supporting at least C++11.
+- CMake (for build automation).
 - MNIST dataset files:
   - `train-images-idx3-ubyte`
   - `train-labels-idx1-ubyte`
@@ -29,3 +30,34 @@ This project implements a neural network from scratch in C++ to solve the MNIST 
    ```bash
    git clone https://github.com/yourusername/neural-network-mnist.git
    cd neural-network-mnist
+
+2. Create a build folder and configure the build with CMake:
+  ````bash
+   mkdir build
+   cd build
+   cmake -G "MinGW Makefiles" ..
+
+3. Build the project
+   ´´´´bash
+   cmake --build .
+
+
+### Usage
+1. Ensure the dataset files are in the project directory
+
+2. After building, the main.exe file will be located in the bin folder inside the project directory.
+
+
+3. Run the executable, passing the paths to the dataset files
+   ´´´´bash
+   ./bin/main
+
+### Code Structure
+## Core Components
+1. data_set: Handles loading and parsing MNIST data files.
+2. functions: Contains activation functions (ReLU, Sigmoid) and utility functions.
+3. layer: Represents a single layer in the neural network.
+4. n_network: Manages the entire network, including forward propagation, backpropagation, and training logic.
+
+### Acknowledgments
+* The MNIST dataset: http://yann.lecun.com/exdb/mnist/

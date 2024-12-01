@@ -12,9 +12,14 @@ void data_set::open(const string& data_path, const string& label_path){
 
     //OPENING AND READING MAGIC NUMBER AND DESCRIPTORS OF THE DATA
     ifstream fi_data(data_path,ios::binary);
+
+    if (!fi_data.is_open()) {
+        throw runtime_error("Could not open the data file: " + data_path);
+    }
     int data_magic = 0, num_images = 0, num_rows = 0, num_cols = 0;
 
     fi_data.read((char *) &data_magic, sizeof(int));
+
     data_magic = reverseInt(data_magic);
 
     if(data_magic != 2051) throw runtime_error("Invalid MNIST image file!");
@@ -43,8 +48,8 @@ void data_set::open(const string& data_path, const string& label_path){
     //CHECKING FOR ERRORS
     if(num_images != num_labels)throw runtime_error("Number of labels not corresponding with number of images!");
 
-    cout<<data_magic<<" "<<num_images<<" "<<num_rows<<" "<<num_cols<<endl;
-    cout<<label_magic<<" "<<num_labels;
+    std::cout << "Dataset format: " << num_images << " images of size " << num_rows << "x" << num_cols << std::endl;
+    std::cout << "Dataset labels: " << num_labels << std::endl;
 
     //READING IMAGES
     data.resize(num_images);

@@ -144,7 +144,7 @@ void n_network::learn(const data_set& dataset, int batch_size, double learning_r
     this->initialize_gradients();
 
     //Print initial cost
-    std::cout << cost(dataset,0,100) << std::endl;
+    std::cout << "Initial cost: "<< cost(dataset,0,100) << std::endl;
 
     //For each epoch
     for(int epoch = 0; epoch < epochs; epoch++){
@@ -166,7 +166,7 @@ void n_network::learn(const data_set& dataset, int batch_size, double learning_r
         }
 
         //Print the updated cost
-        std::cout<<cost(dataset,0,100)<<std::endl;
+        std::cout << "Cost for epoch " << epoch << ": " << cost(dataset,0,100) << std::endl;
     }
 
     //Free gradients

@@ -1,5 +1,0 @@
-/home/rodrigogm/Universidad/RN/StandardNeuronalNetwork/cmake-build-debug/CMakeFiles/layer.dir
-/home/rodrigogm/Universidad/RN/StandardNeuronalNetwork/cmake-build-debug/CMakeFiles/n_network.dir
-/home/rodrigogm/Universidad/RN/StandardNeuronalNetwork/cmake-build-debug/CMakeFiles/pruebas.dir
-/home/rodrigogm/Universidad/RN/StandardNeuronalNetwork/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/rodrigogm/Universidad/RN/StandardNeuronalNetwork/cmake-build-debug/CMakeFiles/rebuild_cache.dir

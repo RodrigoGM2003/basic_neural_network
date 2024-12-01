@@ -1,0 +1,10 @@
+# Ignore all files in code/build and code/bin but not the folders
+code/build/*
+code/bin/*
+
+# Do not ignore the folders themselves
+!code/build/
+!code/bin/
+
+# Allow tracking of specific files if needed
+# !code/build/specific_file
