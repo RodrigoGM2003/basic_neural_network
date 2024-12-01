@@ -32,13 +32,13 @@ This project implements a neural network from scratch in C++ to solve the MNIST 
    cd neural-network-mnist
 
 2. Create a build folder and configure the build with CMake:
-  ````bash
+  ```bash
    mkdir build
    cd build
    cmake -G "MinGW Makefiles" ..
 
 3. Build the project
-   ´´´´bash
+   ```bash
    cmake --build .
 
 
@@ -49,7 +49,7 @@ This project implements a neural network from scratch in C++ to solve the MNIST 
 
 
 3. Run the executable, passing the paths to the dataset files
-   ´´´´bash
+   ```bash
    ./bin/main
 
 ### Code Structure
